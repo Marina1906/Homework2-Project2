@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework2</title>
+    <style>
+		/* Stilovi za formu */
+		form {
+			background-color: #d314c3; /* postavite boju pozadine */
+			padding: 20px; /* dodajte malo prostora oko forme */
+			border-radius: 20px; /* dodajte zaobljene rubove */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(99, 7, 204);
+            font-size: large; border-color: aqua; 
+		}
+	</style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <h1>Apply for a Job</h1>
+        <h2>Upload your CV:</h2>
+        <input type="file" id="cv" name="file">
+
+        <h2>Profile</h2>
+        <label for="name" id="FirstName">First Name:</label> <br>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="lastname">Last Name:</label> <br>
+        <input type="text" id="lastname" name="lastname">
+        <br>
+        <label for="Email">Email:</label> <br>
+        <input type="text" id="Email" name="Email">
+        <br>
+        <label for="Phonenumber">Phone:</label> <br>
+        <input type="number" id="Phonenumber" name="phone">
+        <br> <br>
+        <input type="submit" value="Apply" style="padding: 10px; color: purple;">
+    </form>
+</body>
+</html>
